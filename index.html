@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Responsive dashboard demonstrating design tokens and mobile-first CSS architecture"
+  >
+
+  <title>Responsive Design Tokens Dashboard</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="app">
+
+    <header class="topbar">
+
+      <div class="brand">
+        <div class="brand-logo">RD</div>
+
+        <div>
+          <h1>Responsive Dashboard</h1>
+          <p>Design Tokens & Mobile-First CSS</p>
+        </div>
+      </div>
+
+      <button
+        class="theme-toggle"
+        id="themeToggle"
+        type="button"
+      >
+        🌙 Toggle Theme
+      </button>
+
+    </header>
+
+
+    <main class="container">
+
+      <section class="hero glass">
+
+        <div class="hero-content">
+
+          <span class="eyebrow">TASK 04</span>
+
+          <h2>
+            Responsive Design Tokens &
+            Mobile-First CSS Architecture
+          </h2>
+
+          <p>
+            A modern responsive dashboard built using CSS custom properties,
+            CSS Grid, Flexbox, glassmorphism effects and mobile-first
+            responsive breakpoints.
+          </p>
+
+        </div>
+
+        <div class="hero-badge">
+          <span>✓</span>
+          Responsive
+        </div>
+
+      </section>
+
+
+      <section class="dashboard-grid stats-grid">
+
+        <article class="card stat-card glass">
+
+          <div class="card-icon">📊</div>
+
+          <div>
+            <p class="stat-label">Total Projects</p>
+            <h3>24</h3>
+            <span class="positive">↑ 12% this month</span>
+          </div>
+
+        </article>
+
+
+        <article class="card stat-card glass">
+
+          <div class="card-icon">✓</div>
+
+          <div>
+            <p class="stat-label">Completed Tasks</p>
+            <h3>156</h3>
+            <span class="positive">↑ 8% this month</span>
+          </div>
+
+        </article>
+
+
+        <article class="card stat-card glass">
+
+          <div class="card-icon">👥</div>
+
+          <div>
+            <p class="stat-label">Team Members</p>
+            <h3>18</h3>
+            <span class="positive">↑ 3 new members</span>
+          </div>
+
+        </article>
+
+
+        <article class="card stat-card glass">
+
+          <div class="card-icon">⏳</div>
+
+          <div>
+            <p class="stat-label">Pending Reviews</p>
+            <h3>07</h3>
+            <span class="warning">Needs attention</span>
+          </div>
+
+        </article>
+
+      </section>
+
+
+      <section class="dashboard-grid feature-grid">
+
+        <article class="card glass">
+
+          <div class="feature-icon">📱</div>
+
+          <h3>Mobile First</h3>
+
+          <p>
+            The layout starts with a single-column mobile design and
+            progressively expands for tablet and desktop screens.
+          </p>
+
+          <div class="tag">320px+</div>
+
+        </article>
+
+
+        <article class="card glass">
+
+          <div class="feature-icon">🎨</div>
+
+          <h3>Design Tokens</h3>
+
+          <p>
+            Colors, typography, spacing, border radii and shadows are
+            managed using reusable CSS custom properties.
+          </p>
+
+          <div class="tag">CSS Variables</div>
+
+        </article>
+
+
+        <article class="card glass">
+
+          <div class="feature-icon">▦</div>
+
+          <h3>CSS Grid</h3>
+
+          <p>
+            A flexible multi-column grid automatically adapts to different
+            viewport sizes using responsive breakpoints.
+          </p>
+
+          <div class="tag">Responsive Grid</div>
+
+        </article>
+
+
+        <article class="card glass">
+
+          <div class="feature-icon">✨</div>
+
+          <h3>Glassmorphism</h3>
+
+          <p>
+            Backdrop blur, transparent surfaces and soft shadows create
+            a modern visual interface.
+          </p>
+
+          <div class="tag">Backdrop Filter</div>
+
+        </article>
+
+      </section>
+
+
+      <section class="card glass responsive-info">
+
+        <div>
+
+          <span class="eyebrow">BREAKPOINTS</span>
+
+          <h2>Responsive Architecture</h2>
+
+          <p>
+            Resize the browser window to see the layout change at each
+            breakpoint.
+          </p>
+
+        </div>
+
+
+        <div class="breakpoints">
+
+          <div class="breakpoint">
+            <strong>320px</strong>
+            <span>Mobile</span>
+          </div>
+
+          <div class="breakpoint">
+            <strong>768px</strong>
+            <span>Tablet</span>
+          </div>
+
+          <div class="breakpoint">
+            <strong>1024px</strong>
+            <span>Desktop</span>
+          </div>
+
+          <div class="breakpoint">
+            <strong>1440px</strong>
+            <span>Large Desktop</span>
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+      <p>
+        Task 04 • Responsive Design Tokens & Mobile-First CSS Architecture
+      </p>
+
+    </footer>
+
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
